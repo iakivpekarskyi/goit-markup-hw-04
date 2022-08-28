@@ -555,6 +555,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--white-color);
 margin-bottom: 20px;
+text-align: start;
 }
 
 .social-list-icon-footer{
@@ -588,7 +589,9 @@ margin-bottom: 20px;
 }
 
 
-.port-card:hover {
+.port-card:hover,
+.port-card:focus  {
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   
 
 }
