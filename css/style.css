@@ -158,11 +158,11 @@ img {
 
 .link.email,
 .link.phone {
-  display: inline-block;
+  display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--secondary-color-text);
-  display: flex;
+
   align-items: center;
   fill: currentColor;
 
@@ -415,22 +415,21 @@ border-radius: 0px 0px 4px 4px;
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  fill: var(--social-link);
+
 }
 
 .social-list-link:hover,
 .social-list-link:focus {
   background-color: var(--accent-color);
-}
-
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
   fill: var(--white-color);
 }
+
 
 .social-list-icon {
   width: 20px;
   height: 20px;
-  fill: var(--social-link);
+
 }
 
 
