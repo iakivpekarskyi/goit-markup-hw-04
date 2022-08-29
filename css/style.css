@@ -64,7 +64,9 @@ img {
   margin-left: auto;
 }
 
+
 /*=================== header ==================*/
+
 
 .header {
   border-bottom: 1px solid #ececec;
@@ -101,25 +103,26 @@ img {
   align-items: center;
 }
 
-/* =========Navigation==========  */
+
+
+/*=================== Navigation ==================*/
+
+
 
 .auth-nav.list {
   display: flex;
   list-style: none;
-
 }
 
 .site-nav.list {
   display: flex;
   gap: 50px;
-
 }
 
 .site-nav .link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-
   color: var(--main-color-text);
   font-weight: 500;
   font-size: 14px;
@@ -159,7 +162,7 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--secondary-color-text);
-    display: flex;
+  display: flex;
   align-items: center;
   fill: currentColor;
 
@@ -177,9 +180,6 @@ img {
 }
 
 
-
-
-
 .auth-nav.list {
   display: flex;
   margin-left: auto;
@@ -191,7 +191,11 @@ img {
   align-items:center;
 }
 
-/*============= Hero=============  */
+
+
+/*=================== Hero ==================*/
+
+
 
 .hero {
   background-color: var(--hero-background);
@@ -206,7 +210,7 @@ img {
   width: 700px;
 }
 
-/* ================Overlay ============= */
+/*=================== Overlay ==================*/
 
 .background {
   max-width: 1600px;
@@ -254,7 +258,7 @@ button:hover {
   color: var(--white-color);
 }
 
-/* ===========Feature============  */
+/*=================== Feature ==================*/
 
 .features {
   padding-top: 94px;
@@ -265,10 +269,6 @@ button:hover {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-
-  
-
- 
 }
 
 .feature-list.list {
@@ -320,9 +320,8 @@ button:hover {
 }
 
 
+/*=================== Work ==================*/
 
-
-/*=========== Work ========== */
 
 .work-list.list {
   display: flex;
@@ -336,13 +335,16 @@ button:hover {
 .work {
   padding-bottom: 94px;
 }
+
 .work-box {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-/*============== Team ============ */
+
+/*=================== Team ==================*/
+
 
 .team {
   background-color: var(--port-button);
@@ -369,6 +371,7 @@ button:hover {
   color: var(--main-color-text);
   margin-bottom: 50px;
 }
+
 .section-title {
   font-weight: 500;
   font-size: 16px;
@@ -376,12 +379,14 @@ button:hover {
   color: var(--main-color-text);
   margin-bottom: 10px;
 }
+
 .section-text {
   font-size: 16px;
   line-height: 1.18;
   color: var(--secondary-color-text);
   margin-bottom: 16px;
 }
+
 .section-list.list {
   display: flex;
   gap: 30px;
@@ -401,8 +406,6 @@ border-radius: 0px 0px 4px 4px;
   display: flex;
   justify-content: center;
   column-gap: 10px;
-
-
 }
 
 .social-list-link {
@@ -412,8 +415,8 @@ border-radius: 0px 0px 4px 4px;
   width: 44px;
   height: 44px;
   border-radius: 50%;
- 
 }
+
 .social-list-link:hover,
 .social-list-link:focus {
   background-color: var(--accent-color);
@@ -422,19 +425,16 @@ border-radius: 0px 0px 4px 4px;
 .social-list-link:hover .social-list-icon,
 .social-list-link:focus .social-list-icon {
   fill: var(--white-color);
-
 }
-
-
 
 .social-list-icon {
   width: 20px;
   height: 20px;
   fill: var(--social-link);
-
 }
 
-/* ===========Clients =========== */
+
+/*=================== Clients ==================*/
 
 .clients-box {
    padding-bottom: 94px;
@@ -463,7 +463,6 @@ border-radius: 0px 0px 4px 4px;
   fill: currentColor;
   width: 106px;
   height: 60px;
-
 }
 
 .clients-link:hover,
@@ -471,13 +470,10 @@ border-radius: 0px 0px 4px 4px;
   border:
   1px solid var(--accent-color);
   color: var(--accent-color);
-
-
 }
 
 
-
-/* =============Footer===========  */
+/*=================== Footer ==================*/
 
 
 .footer-section {
@@ -495,8 +491,8 @@ border-radius: 0px 0px 4px 4px;
   display: flex;
   margin-left: auto;
     margin-right: auto;
-
 }
+
 address .link {
   font-style: normal;
   font-weight: 400;
@@ -523,9 +519,6 @@ address .link-phone:hover {
 .foot-address {
   margin-bottom: 9px;
 }
-
-
-
 
 .footer-box {
   display: flex;
@@ -558,12 +551,10 @@ text-align: start;
   fill: var(--white-color);
   width: 20px;
   height: 20px;
-
 }
 
 
-
-/* ===========Portfolio============  */
+/*=================== Portfolio ==================*/
 
 .portfolio-section {
   padding-top: 94px;
@@ -584,11 +575,8 @@ text-align: start;
   gap: 30px;
 }
 
-
-.port-card:hover,
-.port-card:focus  {
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-  
+.card {
+  display: block;
 }
 
 .card:hover, 
@@ -618,9 +606,8 @@ a {
   border-radius: 4px;
   display: inline-block;
   padding: 6px 25px;
-
-
 }
+
 .porthead {
   font-weight: 700;
   font-size: 18px;
